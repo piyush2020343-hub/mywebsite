@@ -6,12 +6,12 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#eef2f7;
+    background:#f3f4f6;
     color:#333;
 }
 
 header{
-    background:linear-gradient(135deg,#2563eb,#0f172a);
+    background:linear-gradient(135deg,#b4b231,#0f172a);
     color:white;
     text-align:center;
     padding:60px 20px;
@@ -22,7 +22,7 @@ header{
     height:170px;
     border-radius:50%;
     object-fit:cover;
-    border:5px solid white;
+    border:5px solid rgb(7, 18, 23);
     margin-bottom:20px;
 }
 
@@ -30,11 +30,11 @@ nav{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    background:#111827;
+    background:#c7a62396;
 }
 
 nav a{
-    color:white;
+    color:rgb(69, 40, 40);
     text-decoration:none;
     padding:18px 25px;
 }
@@ -44,7 +44,7 @@ nav a:hover{
 }
 
 .card{
-    background:white;
+    background:rgb(165, 117, 117);
     max-width:900px;
     margin:30px auto;
     padding:30px;
@@ -56,7 +56,7 @@ nav a:hover{
     display:inline-block;
     margin-top:20px;
     background:#f59e0b;
-    color:white;
+    color:rgb(5, 2, 2);
     text-decoration:none;
     padding:12px 25px;
     border-radius:30px;
@@ -68,8 +68,8 @@ nav a:hover{
 
 footer{
     text-align:center;
-    background:#111827;
-    color:white;
+    background:#868d2b;
+    color:rgb(40, 17, 17);
     padding:25px;
     margin-top:40px;
 }
